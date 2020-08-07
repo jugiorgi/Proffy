@@ -1,0 +1,206 @@
+_type: export
+__export_format: 4
+__export_date: 2020-08-06T21:50:42.188Z
+__export_source: insomnia.desktop.app:v2020.3.3
+resources:
+  - _id: req_ab0d2c73de1e4ddbb27750ab12437ae6
+    authentication: {}
+    body:
+      mimeType: application/json
+      text: >-
+        {
+        	"name": "Raven Reyes", 
+        	"avatar": "https://vignette.wikia.nocookie.net/thehundred/images/a/a0/7x03_Raven_-_Crop.jpg/revision/latest?cb=20200601184626", 
+        	"whatsapp": "11960592090",
+        	"bio": "Raven é apenas foda. Ela é uma garota cara, muito inteligente, feroz e resistente. Ela é um grande trunfo por causa de sua inteligência... Eu vejo Raven ajudando as garotas a se interessarem por ciência, engenharia e mecânica. Ela faz parecer legal.",
+        	"subject": "Mecânica",
+        	"cost": 50,
+        	"schedule": [
+        		{"week_day": 1, "from": "8:00", "to": "12:00"},
+        		{"week_day": 3, "from": "10:00", "to": "18:00"},
+        		{"week_day": 4, "from": "8:00", "to": "12:00"}
+        	]
+        }
+    created: 1596650982455
+    description: ""
+    headers:
+      - id: pair_a93c332961c747f89201d8b3a514bb41
+        name: Content-Type
+        value: application/json
+    isPrivate: false
+    metaSortKey: -1596654160582
+    method: POST
+    modified: 1596659243332
+    name: Crate class
+    parameters: []
+    parentId: fld_720fab285de84c7aa7412a07145ff928
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingFollowRedirects: global
+    settingRebuildPath: true
+    settingSendCookies: true
+    settingStoreCookies: true
+    url: "{{ baseUtl }}/classes"
+    _type: request
+  - _id: fld_720fab285de84c7aa7412a07145ff928
+    created: 1596659239971
+    description: ""
+    environment: {}
+    environmentPropertyOrder: null
+    metaSortKey: -1596659239971
+    modified: 1596659239971
+    name: Classes
+    parentId: wrk_8aa576fe27554ff28ebf6e9d1d123773
+    _type: request_group
+  - _id: wrk_8aa576fe27554ff28ebf6e9d1d123773
+    created: 1596646277476
+    description: ""
+    modified: 1596646277476
+    name: Proffy
+    parentId: null
+    scope: null
+    _type: workspace
+  - _id: req_938199c614f7404e9bc68dce8b6af380
+    authentication: {}
+    body: {}
+    created: 1596654160532
+    description: ""
+    headers: []
+    isPrivate: false
+    metaSortKey: -1596654160532
+    method: GET
+    modified: 1596749784986
+    name: List classes with filter
+    parameters:
+      - description: ""
+        disabled: false
+        id: pair_e433cd2802f74ec1938ceddbfe5863a3
+        name: week_day
+        value: "2"
+      - description: ""
+        id: pair_09d68bfb34df48a2abc2ce8e58a02a1e
+        name: subject
+        value: Luta
+      - description: ""
+        id: pair_4dd3f7e3327e45fcb935a59c578a3b6c
+        name: time
+        value: 13:00
+    parentId: fld_720fab285de84c7aa7412a07145ff928
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingFollowRedirects: global
+    settingRebuildPath: true
+    settingSendCookies: true
+    settingStoreCookies: true
+    url: "{{ baseUtl }}/classes"
+    _type: request
+  - _id: req_78d1a82889bf4a119b0925e2d2c30b34
+    authentication: {}
+    body: {}
+    created: 1596749797986
+    description: ""
+    headers: []
+    isPrivate: false
+    metaSortKey: -1596302835449
+    method: GET
+    modified: 1596749843166
+    name: List all classes
+    parameters: []
+    parentId: fld_720fab285de84c7aa7412a07145ff928
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingFollowRedirects: global
+    settingRebuildPath: true
+    settingSendCookies: true
+    settingStoreCookies: true
+    url: "{{ baseUtl }}/classes/all"
+    _type: request
+  - _id: req_fbb4b2cb368b45259d67317c970ecfc3
+    authentication: {}
+    body:
+      mimeType: application/json
+      text: |-
+        {
+        	"user_id": "1"
+        }
+    created: 1596659200330
+    description: ""
+    headers:
+      - id: pair_a93c332961c747f89201d8b3a514bb41
+        name: Content-Type
+        value: application/json
+    isPrivate: false
+    metaSortKey: -1595951510366
+    method: POST
+    modified: 1596659263733
+    name: Crate connections
+    parameters: []
+    parentId: fld_42ad47e4776d40e18fd84f0c0a1b44a4
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingFollowRedirects: global
+    settingRebuildPath: true
+    settingSendCookies: true
+    settingStoreCookies: true
+    url: "{{ baseUtl }}/connections"
+    _type: request
+  - _id: fld_42ad47e4776d40e18fd84f0c0a1b44a4
+    created: 1596659232931
+    description: ""
+    environment: {}
+    environmentPropertyOrder: null
+    metaSortKey: -1596659232933
+    modified: 1596659232931
+    name: Connections
+    parentId: wrk_8aa576fe27554ff28ebf6e9d1d123773
+    _type: request_group
+  - _id: req_dd04b36bca6d49b5b88a35d3bdfc102d
+    authentication: {}
+    body: {}
+    created: 1596661182910
+    description: ""
+    headers: []
+    isPrivate: false
+    metaSortKey: -1595951510316
+    method: GET
+    modified: 1596661196791
+    name: List connections
+    parameters: []
+    parentId: fld_42ad47e4776d40e18fd84f0c0a1b44a4
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingFollowRedirects: global
+    settingRebuildPath: true
+    settingSendCookies: true
+    settingStoreCookies: true
+    url: "{{ baseUtl }}/connections"
+    _type: request
+  - _id: env_9e21add889a7560ceb07a878ddea227fe0d16968
+    color: null
+    created: 1596646277585
+    data:
+      baseUtl: http://localhost:3333
+    dataPropertyOrder:
+      "&":
+        - baseUtl
+    isPrivate: false
+    metaSortKey: 1596646277585
+    modified: 1596647649165
+    name: Base Environment
+    parentId: wrk_8aa576fe27554ff28ebf6e9d1d123773
+    _type: environment
+  - _id: jar_9e21add889a7560ceb07a878ddea227fe0d16968
+    cookies: []
+    created: 1596646277597
+    modified: 1596646277597
+    name: Default Jar
+    parentId: wrk_8aa576fe27554ff28ebf6e9d1d123773
+    _type: cookie_jar
+  - _id: spc_3cb2bee12d0a49e693ef42f9b163b152
+    contentType: yaml
+    contents: ""
+    created: 1596646277485
+    fileName: Proffy
+    modified: 1596646277485
+    parentId: wrk_8aa576fe27554ff28ebf6e9d1d123773
+    _type: api_spec
