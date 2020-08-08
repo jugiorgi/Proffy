@@ -1,8 +1,3 @@
-<br />
-<p align="center">
-    <img src="https://raw.githubusercontent.com/jugiorgi/Proffy/15d1d4e4e4c0547ef354b7e2d945d47807ac6c55/web/src/assets/images/logo.svg" alt="Logo" width="200">
-</p>
-
 ## Sobre
 
 O Proffy é uma ferramenta onde é possível que professores façam a divulgação de suas aulas.
@@ -12,14 +7,7 @@ O Proffy é uma ferramenta onde é possível que professores façam a divulgaç�
     <img src="https://walde.co/wp-content/uploads/2016/09/nodejs_logo.png" alt="Node" width="34" >
 </p>
 
-## Aplicação
-
-<p align="center">
-  <img src="" width="800" alt="">
-</p>
-
-
-## Servidor (backend)
+## Servidor
 
 ##### Instalando as dependências
 
@@ -57,4 +45,53 @@ yarn install
 ```sh
 yarn start
 ```
+
+
+<br />
+
+## Mobile
+
+> Necessário ter o expo instalado
+
+##### Instalando as dependências
+
+```sh
+yarn install
+```
+
+##### Rodando local
+
+```sh
+yarn start
+```
+
+## Aplicação
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/jugiorgi/Proffy/master/web/src/assets/preview/Landing.png" width="800" alt="Landing">
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/jugiorgi/Proffy/master/web/src/assets/preview/first_subscribe.png" width="800" alt="First Subscribe">
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/jugiorgi/Proffy/master/web/src/assets/preview/second_subscribe.png" width="800" alt="Second Subscribe">
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/jugiorgi/Proffy/master/web/src/assets/preview/teachers.png" width="800" alt="Teachers">
+</p>
+
+<p align="center">
+<img src="https://raw.githubusercontent.com/jugiorgi/Proffy/master/mobile/src/assets/preview/landing.png" width="180" alt="Landing">
+
+<img src="https://raw.githubusercontent.com/jugiorgi/Proffy/master/mobile/src/assets/preview/give_classes.png" width="180" alt="Give Classes">
+</p>
+
+<p align="center">
+<img src="https://raw.githubusercontent.com/jugiorgi/Proffy/master/mobile/src/assets/preview/proffys.png" width="180" alt="Proffys">
+
+<img src="https://raw.githubusercontent.com/jugiorgi/Proffy/master/mobile/src/assets/preview/favorites.png" width="180" alt="Favorites">
+</p>
 
