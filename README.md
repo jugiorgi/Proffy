@@ -84,14 +84,14 @@ yarn start
 </p>
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/jugiorgi/Proffy/master/mobile/src/assets/preview/landing.png" width="180" alt="Landing">
+<img src="https://raw.githubusercontent.com/jugiorgi/Proffy/master/mobile/src/assets/preview/landing.png" width="400" alt="Landing">
 
-<img src="https://raw.githubusercontent.com/jugiorgi/Proffy/master/mobile/src/assets/preview/give_classes.png" width="180" alt="Give Classes">
+<img src="https://raw.githubusercontent.com/jugiorgi/Proffy/master/mobile/src/assets/preview/give_classes.png" width="400" alt="Give Classes">
 </p>
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/jugiorgi/Proffy/master/mobile/src/assets/preview/proffys.png" width="180" alt="Proffys">
+<img src="https://raw.githubusercontent.com/jugiorgi/Proffy/master/mobile/src/assets/preview/proffys.png" width="400" alt="Proffys">
 
-<img src="https://raw.githubusercontent.com/jugiorgi/Proffy/master/mobile/src/assets/preview/favorites.png" width="180" alt="Favorites">
+<img src="https://raw.githubusercontent.com/jugiorgi/Proffy/master/mobile/src/assets/preview/favorites.png" width="400" alt="Favorites">
 </p>
 
