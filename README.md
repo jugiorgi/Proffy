@@ -1,6 +1,6 @@
 ## Sobre
 
-O Proffy é uma ferramenta onde é possível que professores façam a divulgação de suas aulas.
+O Proffy é uma plataforma onde os professores podem divulgar seus trabalhos. Também é possível que os alunos entrem em contato com o professor desejado através do Whatsapp.
 
 <p align="start">
     <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" alt="React" width="50" >
